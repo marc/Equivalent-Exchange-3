@@ -1,6 +1,7 @@
 package com.pahimar.ee3.core.handlers;
 
 import com.pahimar.ee3.core.addons.AddonRedPower2;
+import com.pahimar.ee3.core.addons.AddonPowerSuits;
 
 /**
  * AddonHandler
@@ -17,6 +18,7 @@ public class AddonHandler {
     public static void init() {
 
         AddonRedPower2.initWorld();
+        AddonPowerSuits.initWorld();
     }
 
 }
